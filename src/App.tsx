@@ -66,17 +66,6 @@ function App() {
   //   return () => annotorious.destroy();
   // });
 
-  // Toggles current tool + button label
-  const toggleTool = () => {
-    if (tool === "rect") {
-      setTool("polygon");
-      anno.setDrawingTool("polygon");
-    } else {
-      setTool("rect");
-      anno.setDrawingTool("rect");
-    }
-  };
-
   return (
     <div>
       {/* <img ref={imgEl} src={imgUrl} alt="Hallstatt Town Square" /> */}
